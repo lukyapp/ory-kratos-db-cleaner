@@ -1,0 +1,5 @@
+[service]
+name = "kratos-db-cleaner"
+
+[deploy]
+restartPolicyType = "ON_FAILURE"
